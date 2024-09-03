@@ -7,4 +7,4 @@
 
 
 select * from 
-Raw.GlobalMart.Orders
+{{ source('GlobalMart', 'orders') }}
